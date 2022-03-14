@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 681447c13f9ec0a45a4bd349bd955b1b
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 10K
+    100002: Export
+    100004: Intersections
+    100006: Object_026
+    100008: Object_031
+    100010: Object_034
+    100012: Object_036
+    100014: Object_037
+    100016: Object_038
+    100018: Object_040
+    100020: Object_041
+    100022: Object_043
+    100024: Object_044
+    100026: Object_16
+    100028: Object_21
+    100030: Object_22
+    100032: Object_23
+    100034: Object_24
+    100036: Object_25
+    100038: Object_26
+    100040: Object_27
+    100042: Object_28
+    100044: Puffer View
+    100046: Resektionsebene
+    100048: //RootNode
+    100050: Tumor 1
+    400000: 10K
+    400002: Export
+    400004: Intersections
+    400006: Object_026
+    400008: Object_031
+    400010: Object_034
+    400012: Object_036
+    400014: Object_037
+    400016: Object_038
+    400018: Object_040
+    400020: Object_041
+    400022: Object_043
+    400024: Object_044
+    400026: Object_16
+    400028: Object_21
+    400030: Object_22
+    400032: Object_23
+    400034: Object_24
+    400036: Object_25
+    400038: Object_26
+    400040: Object_27
+    400042: Object_28
+    400044: Puffer View
+    400046: Resektionsebene
+    400048: //RootNode
+    400050: Tumor 1
+    2100000: Material_2
+    2100002: 'Material #25'
+    2300000: Object_026
+    2300002: Object_031
+    2300004: Object_034
+    2300006: Object_036
+    2300008: Object_037
+    2300010: Object_038
+    2300012: Object_040
+    2300014: Object_041
+    2300016: Object_043
+    2300018: Object_044
+    2300020: Object_16
+    2300022: Object_21
+    2300024: Object_22
+    2300026: Object_23
+    2300028: Object_24
+    2300030: Object_25
+    2300032: Object_26
+    2300034: Object_27
+    2300036: Object_28
+    3300000: Object_026
+    3300002: Object_031
+    3300004: Object_034
+    3300006: Object_036
+    3300008: Object_037
+    3300010: Object_038
+    3300012: Object_040
+    3300014: Object_041
+    3300016: Object_043
+    3300018: Object_044
+    3300020: Object_16
+    3300022: Object_21
+    3300024: Object_22
+    3300026: Object_23
+    3300028: Object_24
+    3300030: Object_25
+    3300032: Object_26
+    3300034: Object_27
+    3300036: Object_28
+    4300000: Object_16
+    4300002: Object_21
+    4300004: Object_22
+    4300006: Object_23
+    4300008: Object_24
+    4300010: Object_25
+    4300012: Object_26
+    4300014: Object_27
+    4300016: Object_031
+    4300018: Object_034
+    4300020: Object_026
+    4300022: Object_036
+    4300024: Object_037
+    4300026: Object_038
+    4300028: Object_040
+    4300030: Object_041
+    4300032: Object_043
+    4300034: Object_044
+    4300036: Object_28
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

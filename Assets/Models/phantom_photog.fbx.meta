@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 4be216d4e2325d44fb89f3a4742fbfc6
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: phantom_hole
+    100002: phantom_hole_1k
+    100004: phantom_hole_1k_smooth
+    100006: phantom_hole_5k
+    100008: phantom_hole_5k_smooth
+    100010: phantom_no_hole
+    100012: phantom_no_hole_10k
+    100014: phantom_no_hole_10k_smooth
+    100016: phantom_no_hole_5k
+    100018: phantom_no_hole_5k_smooth
+    100020: //RootNode
+    400000: phantom_hole
+    400002: phantom_hole_1k
+    400004: phantom_hole_1k_smooth
+    400006: phantom_hole_5k
+    400008: phantom_hole_5k_smooth
+    400010: phantom_no_hole
+    400012: phantom_no_hole_10k
+    400014: phantom_no_hole_10k_smooth
+    400016: phantom_no_hole_5k
+    400018: phantom_no_hole_5k_smooth
+    400020: //RootNode
+    2100000: lambert1
+    2300000: phantom_hole_1k
+    2300002: phantom_hole_1k_smooth
+    2300004: phantom_hole_5k
+    2300006: phantom_hole_5k_smooth
+    2300008: phantom_no_hole_10k
+    2300010: phantom_no_hole_10k_smooth
+    2300012: phantom_no_hole_5k
+    2300014: phantom_no_hole_5k_smooth
+    3300000: phantom_hole_1k
+    3300002: phantom_hole_1k_smooth
+    3300004: phantom_hole_5k
+    3300006: phantom_hole_5k_smooth
+    3300008: phantom_no_hole_10k
+    3300010: phantom_no_hole_10k_smooth
+    3300012: phantom_no_hole_5k
+    3300014: phantom_no_hole_5k_smooth
+    4300000: phantom_no_hole_5k
+    4300002: phantom_no_hole_10k
+    4300004: phantom_no_hole_10k_smooth
+    4300006: phantom_no_hole_5k_smooth
+    4300008: phantom_hole_1k
+    4300010: phantom_hole_1k_smooth
+    4300012: phantom_hole_5k
+    4300014: phantom_hole_5k_smooth
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
