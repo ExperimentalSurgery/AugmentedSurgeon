@@ -1,4 +1,4 @@
-# AugmentedSurgeon
+# Augmented Surgeon
 An experimental Hololens 2 app for researching the design principles and guidelines of MRT/CT data overlay in visceral surgery
 
 Click here for a video of the app on Youtube:
