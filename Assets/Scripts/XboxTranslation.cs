@@ -76,8 +76,6 @@ public class XboxTranslation : MonoBehaviour
 
             if (!GameMananger.instance.isInCalibrationMode)
             {
-                occlusionMesh.GetComponent<Renderer>().material = occlusionMAT;
-
                 ToogleEditMode(gamepad);
 
                 if (editModeEnabled)
@@ -89,29 +87,12 @@ public class XboxTranslation : MonoBehaviour
 
                 if (gamepad.leftShoulder.wasPressedThisFrame)
                 {
-                    ListOfModels[currentModelNo].SetActive(false);
-
-                    currentModelNo--;
-                    if (currentModelNo == -1)
-                    {
-                        currentModelNo = 0;
-                    }
-
-                    ListOfModels[currentModelNo].SetActive(true);
+                    SwitchVisualisationDown();
                 }
 
                 if (gamepad.rightShoulder.wasPressedThisFrame)
                 {
-                    ListOfModels[currentModelNo].SetActive(false);
-
-
-                    currentModelNo++;
-                    if (currentModelNo == ListOfModels.Length)
-                    {
-                        currentModelNo = ListOfModels.Length - 1;
-                    }
-
-                    ListOfModels[currentModelNo].SetActive(true);
+                    SwitchVisualisationUp();
                 }
 
                 if (gamepad.rightStickButton.wasPressedThisFrame)
@@ -120,12 +101,45 @@ public class XboxTranslation : MonoBehaviour
                     floatingLiver.SetActive(!floatingLiverActiveState);
                 }
             }
-
-            else
-            {
-                occlusionMesh.GetComponent<Renderer>().material = standardMAT;
-            }
         }
+    }
+
+    public void SwitchVisualisationUp()
+    {
+        if (!GameMananger.instance.isInCalibrationMode)
+        {
+            ListOfModels[currentModelNo].SetActive(false);
+
+            currentModelNo++;
+            if (currentModelNo == ListOfModels.Length)
+            {
+                currentModelNo = ListOfModels.Length - 1;
+            }
+
+            ListOfModels[currentModelNo].SetActive(true);
+        }            
+    }
+
+    public void SwitchVisualisationDown()
+    {
+        if (!GameMananger.instance.isInCalibrationMode)
+        {
+            ListOfModels[currentModelNo].SetActive(false);
+
+            currentModelNo--;
+            if (currentModelNo == -1)
+            {
+                currentModelNo = 0;
+            }
+
+            ListOfModels[currentModelNo].SetActive(true);
+        }
+            
+    }
+
+    public void SetEnvBrightness(float brightness)
+    {
+        UnityEngine.RenderSettings.ambientIntensity = brightness;
     }
 
     void MoveRotateControl(Gamepad gamepad)

@@ -5,8 +5,9 @@ using UnityEngine;
 public class Phantom_WorldPlacement : MonoBehaviour {
 
     Transform QRCode;
-    AudioSource confirmationSoundSource; 
-
+    AudioSource confirmationSoundSource;
+    
+    public XboxTranslation controls;
     public GameObject CalibrationHint;
     public GameObject PatternHint;
 
@@ -17,7 +18,7 @@ public class Phantom_WorldPlacement : MonoBehaviour {
 
         confirmationSoundSource = GetComponent<AudioSource>();
 
-        LockTracking();
+        StartTracking();
     }
 	
 	// Update is called once per frame
@@ -56,6 +57,9 @@ public class Phantom_WorldPlacement : MonoBehaviour {
         PatternHint.SetActive(true);
 
         GameMananger.instance.isInCalibrationMode = true;
+
+        controls.occlusionMesh.GetComponent<Renderer>().material = controls.standardMAT;
+
     }
 
     public void LockTracking()
@@ -68,6 +72,8 @@ public class Phantom_WorldPlacement : MonoBehaviour {
         confirmationSoundSource.Play();
 
         GameMananger.instance.isInCalibrationMode = false;
+
+        controls.occlusionMesh.GetComponent<Renderer>().material = controls.occlusionMAT;
     }
 
 
