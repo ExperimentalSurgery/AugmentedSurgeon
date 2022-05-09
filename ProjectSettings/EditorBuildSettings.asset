@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Packages/com.microsoft.mixedreality.spectatorview/SpectatorView/Scenes/SpectatorView.ARFoundation.Spectator.unity
+    guid: 1e6ff34bb8b2cbb468b958b46f1aa620
   - enabled: 1
-    path: Assets/Scenes/Phantom_App_HL2.unity
-    guid: eb40653bedf3cb249bcb4b7d5de77540
+    path: Assets/Scenes/Phantom_App_HL2_NoQR.unity
+    guid: 23816b14df99f76498cda319e3ff66fa
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 9058339f66cafe44c99e952890117d6e,
       type: 2}

@@ -42,11 +42,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
   m_Name: WSA Providers
   m_EditorClassIdentifier: 
-  m_RequiresSettingsUpdate: 0
+  m_InitializationComplete: 0
+  m_RequiresSettingsUpdate: 1
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: d3552538fb3f33e499e7982769fde850, type: 2}
+  - {fileID: 11400000, guid: 506d21af065e4bc42aab19f4b5a362a1, type: 2}
 --- !u!114 &-2940491959264820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,8 +63,7 @@ MonoBehaviour:
   m_RequiresSettingsUpdate: 0
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders:
-  - {fileID: 11400000, guid: 953378d7d8ded6e4b97b4caca5374a0b, type: 2}
+  m_Loaders: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,7 +94,9 @@ MonoBehaviour:
   m_Name: WSA Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -2627765580981363978}
-  m_InitManagerOnStart: 1
+  m_InitManagerOnStart: 0
+  m_XRManager: {fileID: 0}
+  m_IsPlaying: 0
 --- !u!114 &7859701246822722620
 MonoBehaviour:
   m_ObjectHideFlags: 0

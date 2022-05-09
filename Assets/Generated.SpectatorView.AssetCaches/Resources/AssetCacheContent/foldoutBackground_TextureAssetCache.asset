@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834de04ea6edd92448b61c536ba937ae, type: 3}
+  m_Name: foldoutBackground_TextureAssetCache
+  m_EditorClassIdentifier: 
+  AssetCacheEntries:
+  - AssetId:
+      guid:
+        m_storage: 5ab69704-aa49-84b4-9bc4-26da72fabbed
+      fileIdentifier: 2800000
+      name: foldoutBackground
+    Asset: {fileID: 2800000, guid: 5ab69704aa4984b49bc426da72fabbed, type: 3}
+  - AssetId:
+      guid:
+        m_storage: c0996bc2-90ff-74bf-4834-f4a8b7dc8c3e
+      fileIdentifier: 2800000
+      name: foldoutBackground
+    Asset: {fileID: 2800000, guid: c0996bc290ff74bf4834f4a8b7dc8c3e, type: 3}

@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AllShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHABLEND_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _GLOSSYREFLECTIONS_OFF
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHABLEND_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON
+        passType: 8
+  - first: {fileID: 1, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 1
+  - first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+  - first: {fileID: 30, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+  - first: {fileID: 32, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 207, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9006, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15300, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1c504b73bf66872479cd1215fb5ce0fe, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
+    second:
+      variants:
+      - keywords: _DISABLE_ALBEDO_MAP
+        passType: 4
+      - keywords: _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP
+        passType: 4
+      - keywords: _DISABLE_ALBEDO_MAP _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP
+          _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP _HOVER_LIGHT
+          _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP
+          _HOVER_LIGHT _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHATEST_ON _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHATEST_ON _BORDER_LIGHT_USES_HOVER_COLOR _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHATEST_ON _DIRECTIONAL_LIGHT _HOVER_LIGHT _REFLECTIONS _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _DISABLE_ALBEDO_MAP
+        passType: 4
+      - keywords: _ALPHABLEND_ON _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHATEST_ON _SPECULAR_HIGHLIGHTS _USE_SSAA
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP
+          _HOVER_LIGHT _SPECULAR_HIGHLIGHTS _SPHERICAL_HARMONICS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT_USES_HOVER_COLOR _EMISSION _SPECULAR_HIGHLIGHTS
+          _VERTEX_COLORS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP
+          _EMISSION _SPECULAR_HIGHLIGHTS _VERTEX_COLORS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _NEAR_LIGHT_FADE _NEAR_PLANE_FADE _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP
+          _HOVER_COLOR_OVERRIDE _HOVER_LIGHT _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _HOVER_LIGHT _PROXIMITY_LIGHT
+        passType: 4
+      - keywords: _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP _HOVER_LIGHT _PROXIMITY_LIGHT
+          _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP
+          _HOVER_LIGHT _PROXIMITY_LIGHT _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT
+          _DISABLE_ALBEDO_MAP _HOVER_LIGHT _PROXIMITY_LIGHT _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _HOVER_LIGHT _PROXIMITY_LIGHT _PROXIMITY_LIGHT_COLOR_OVERRIDE _PROXIMITY_LIGHT_SUBTRACTIVE
+          _PROXIMITY_LIGHT_TWO_SIDED _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT
+          _DISABLE_ALBEDO_MAP _HOVER_LIGHT _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP
+          _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT _DISABLE_ALBEDO_MAP _NEAR_LIGHT_FADE
+          _NEAR_PLANE_FADE
+        passType: 4
+      - keywords: _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT
+          _DISABLE_ALBEDO_MAP _HOVER_COLOR_OVERRIDE _HOVER_LIGHT _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT
+          _DISABLE_ALBEDO_MAP _HOVER_COLOR_OVERRIDE _HOVER_LIGHT _REFLECTIONS _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP
+          _HOVER_COLOR_OVERRIDE _HOVER_LIGHT
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP
+          _HOVER_COLOR_OVERRIDE _METALLIC_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP
+          _HOVER_LIGHT _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _NEAR_LIGHT_FADE _NEAR_PLANE_FADE
+          _PROXIMITY_LIGHT _PROXIMITY_LIGHT_TWO_SIDED
+        passType: 4
+      - keywords: _BORDER_LIGHT _BORDER_LIGHT_OPAQUE _BORDER_LIGHT_REPLACES_ALBEDO
+          _DISABLE_ALBEDO_MAP _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _ROUND_CORNERS
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP _HOVER_LIGHT
+          _INNER_GLOW
+        passType: 4
+      - keywords: _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP _HOVER_LIGHT _INNER_GLOW
+          _REFLECTIONS _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP
+          _INNER_GLOW _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _NEAR_LIGHT_FADE _NEAR_PLANE_FADE
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP _HOVER_LIGHT
+          _INNER_GLOW _PROXIMITY_LIGHT
+        passType: 4
+      - keywords: _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP _HOVER_COLOR_OVERRIDE
+          _HOVER_LIGHT _INNER_GLOW _PROXIMITY_LIGHT
+        passType: 4
+      - keywords: _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP
+          _HOVER_LIGHT _INNER_GLOW _PROXIMITY_LIGHT
+        passType: 4
+      - keywords: _ALPHABLEND_ON _DISABLE_ALBEDO_MAP _HOVER_LIGHT _IRIDESCENCE _PROXIMITY_LIGHT
+          _PROXIMITY_LIGHT_COLOR_OVERRIDE _PROXIMITY_LIGHT_SUBTRACTIVE _PROXIMITY_LIGHT_TWO_SIDED
+          _SPECULAR_HIGHLIGHTS
+        passType: 4
+      - keywords: _BORDER_LIGHT_REPLACES_ALBEDO _DISABLE_ALBEDO_MAP _IRIDESCENCE _METALLIC_TEXTURE_ALBEDO_CHANNEL_A
+          _PROXIMITY_LIGHT
+        passType: 4
+      - keywords: _BORDER_LIGHT _BORDER_LIGHT_REPLACES_ALBEDO _DISABLE_ALBEDO_MAP
+          _IRIDESCENCE _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _ROUND_CORNERS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT _BORDER_LIGHT_REPLACES_ALBEDO _DISABLE_ALBEDO_MAP
+          _IRIDESCENCE _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _ROUND_CORNERS
+        passType: 4
+      - keywords: _BORDER_LIGHT _BORDER_LIGHT_REPLACES_ALBEDO _DISABLE_ALBEDO_MAP
+          _HOVER_LIGHT _IRIDESCENCE _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _PROXIMITY_LIGHT
+          _ROUND_CORNERS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT _BORDER_LIGHT_REPLACES_ALBEDO _DISABLE_ALBEDO_MAP
+          _HOVER_LIGHT _IRIDESCENCE _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _NEAR_LIGHT_FADE
+          _NEAR_PLANE_FADE _PROXIMITY_LIGHT _ROUND_CORNERS
+        passType: 4
+      - keywords: _DISABLE_ALBEDO_MAP _IGNORE_Z_SCALE _ROUND_CORNERS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT _BORDER_LIGHT_USES_HOVER_COLOR _DISABLE_ALBEDO_MAP
+          _HOVER_COLOR_OVERRIDE _HOVER_LIGHT _IGNORE_Z_SCALE
+        passType: 4
+      - keywords: _BORDER_LIGHT_REPLACES_ALBEDO _DISABLE_ALBEDO_MAP _IGNORE_Z_SCALE
+          _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _ROUND_CORNERS
+        passType: 4
+      - keywords: _BORDER_LIGHT _BORDER_LIGHT_REPLACES_ALBEDO _DISABLE_ALBEDO_MAP
+          _IGNORE_Z_SCALE _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _ROUND_CORNERS
+        passType: 4
+      - keywords: _ALPHABLEND_ON _BORDER_LIGHT _BORDER_LIGHT_OPAQUE _DISABLE_ALBEDO_MAP
+          _HOVER_LIGHT _IGNORE_Z_SCALE _NEAR_LIGHT_FADE _NEAR_PLANE_FADE _PROXIMITY_LIGHT
+          _PROXIMITY_LIGHT_TWO_SIDED _ROUND_CORNERS
+        passType: 4
+      - keywords: _BORDER_LIGHT _BORDER_LIGHT_REPLACES_ALBEDO _DISABLE_ALBEDO_MAP
+          _IGNORE_Z_SCALE _IRIDESCENCE _METALLIC_TEXTURE_ALBEDO_CHANNEL_A _ROUND_CORNERS
+        passType: 4
+  - first: {fileID: 4800000, guid: 6a1480e6da7ca8e409be9596ad447719, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _ENABLE_
+        passType: 0
+  - first: {fileID: 4800000, guid: 713bac42f937fad4da6ed48657c681c8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: aca12b5bed90b92448a88757df739294, type: 3}
+    second:
+      variants:
+      - keywords: USE_ALBEDO_TEXTURE
+        passType: 0
