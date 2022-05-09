@@ -32,6 +32,7 @@ public class Phantom_WorldPlacement : MonoBehaviour {
 
         if (trackingActive)
         {
+
             if(qrCodesManager == null)
             {
                 qrCodesManager = FindObjectOfType<QRCodesManager>();
